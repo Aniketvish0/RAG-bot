@@ -6,22 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "ts-node ./app/scripts/loaddb.ts"
   },
   "dependencies": {
+    "@ai-sdk/react": "^1.1.16",
+    "@datastax/astra-db-ts": "^1.5.0",
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/community": "^0.3.30",
+    "@langchain/core": "^0.3.40",
+    "ai": "^4.1.41",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.15",
+    "next": "15.1.7",
+    "openai": "^4.85.1",
+    "puppeteer": "^24.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
+    "@types/puppeteer": "^5.4.7",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

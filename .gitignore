@@ -32,10 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-
+app/scripts/parsed_chat.json
 # vercel
 .vercel
-
+test
 # typescript
 *.tsbuildinfo
 next-env.d.ts
